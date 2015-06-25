@@ -1,0 +1,25 @@
+{
+    "name": "ipost",
+    "version": "0.0.1",
+    "private": true,
+    "main": "./bin/ipost.js",
+    "bin": "./bin/ipost.js",
+    "description" : "A package which shows how does cargo look like",
+    "scripts": {
+      "start": "./bin/ipost.js"
+    },
+    "dependencies": {
+      "commander": "2.7.1",
+      "async": "0.9.0",
+      "restler": "3.2.2",
+      "mime": "1.3.4"
+    },
+    "config": {
+      "someimage": {
+        "apikey": "YOURAPIKEY",
+        "gallery": "https://someimage.com/api/2/gallery/create",
+        "image": "https://someimage.com/api/2/image/upload",
+        "familysafe": 0
+      }
+    }
+}
